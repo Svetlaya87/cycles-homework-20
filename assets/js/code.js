@@ -22,6 +22,7 @@ for ( let i5=3; i5<=steps5; i5++) {
     
     console.log (`Задача №5.`);    
     
+    
 }
 
 
