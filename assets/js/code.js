@@ -7,13 +7,11 @@ let x;
 for ( let i5=3; i5<=steps5; i5++) {
     
     
-        for (let x=2; i5<x; x++)  {
+        for ( x=2; i5<x; x++)  {
 
             if (i5%x==0) {
 
                 continue;  
-               
-
             }
             
             console.log (`Задача №5. Простое число от 3 до 1000 ${i5}`);
@@ -22,7 +20,7 @@ for ( let i5=3; i5<=steps5; i5++) {
     
     console.log (`Задача №5.`);    
     
-    
+
 }
 
 
