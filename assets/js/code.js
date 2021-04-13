@@ -2,26 +2,60 @@
 
 let steps5 = 1000;
 
-let x;
+let delitel;
+/*let i5=3;*/
+
 
 for ( let i5=3; i5<=steps5; i5++) {
     
     
-        for ( x=2; i5<x; x++)  {
+        for ( delitel=2; delitel<=i5; delitel++)  {
 
-            if (i5%x==0) {
+            if (i5%delitel==0 && delitel<i5) {
 
-                continue;  
+                break; 
             }
             
-            console.log (`Задача №5. Простое число от 3 до 1000 ${i5}`);
+            /* после break delitel==3 и далее добавляется еще 1, и опять идет цикл фор внутренний где 
+            delitel==4 и это больше , чем i5==3  */
+            
+            if (i5==delitel) console.log (`Задача №5. Простое число от 3 до 1000 ${i5}`);
+    
+             
 
         }
     
-    console.log (`Задача №5.`);    
+       
     
 
 }
+
+
+
+/*
+while (i5<=steps5) {
+    for ( delitel=2; delitel<=i5; delitel++)  {
+
+        if (i5%delitel==0 && delitel<i5) {
+
+            break; 
+        }
+
+
+        if (i5==delitel) console.log (`Задача №5. Простое число от 3 до 1000 ${i5}`);
+
+
+    }
+    
+    
+    i5++;
+    
+}
+*/
+
+
+
+
 
 
 
